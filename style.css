@@ -36,12 +36,25 @@ a:hover {
   border-radius: 10px;
 }
 
-#headtitle {
+#maintitle {
   font-size: 75px;
   color: rgba(80, 210, 170, 0.5);
   margin: 0px;
   text-decoration: underline;
   text-shadow:
+}
+
+#headtitle {
+  font-size: 40px;
+  color: rgba(210, 156, 20, 0.8);
+  margin: 5px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#articledivider {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .container {
@@ -51,6 +64,11 @@ a:hover {
   border-color: rgb(210, 156, 20);
   margin-top: 10px;
   padding: 5px;
+}
+
+.mainpage {
+  font-size: 16px;
+  text-align: left;
 }
 
 .footnote {
